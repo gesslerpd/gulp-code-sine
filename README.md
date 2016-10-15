@@ -6,6 +6,7 @@ Gulp plugin to sine your code
 
 - [Install](#install)
 - [Usage](#usage)
+- [Output](#output)
 - [Author](#author)
 - [License](#license)
 
@@ -43,6 +44,73 @@ gulp.src('src/**/*.js')
       period: 10
   }))
   .pipe(gulp.dest('dist'));
+```
+## Output
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+	<p>Hello World</p>
+</body>
+</html>
+```
+
+outputs
+
+```html
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+          <title>Document</title>
+              </head>
+                 <body>
+                   <p>Hello World</p>
+                    <p>Hello World</p>
+                   <p>Hello World</p>
+                 <p>Hello World</p>
+              <p>Hello World</p>
+          <p>Hello World</p>
+      <p>Hello World</p>
+   <p>Hello World</p>
+ <p>Hello World</p>
+<p>Hello World</p>
+ <p>Hello World</p>
+   <p>Hello World</p>
+      <p>Hello World</p>
+          <p>Hello World</p>
+              <p>Hello World</p>
+                 <p>Hello World</p>
+                   <p>Hello World</p>
+                    <p>Hello World</p>
+                   <p>Hello World</p>
+                 <p>Hello World</p>
+              </body>
+          </html>
 ```
 
 ## Author
