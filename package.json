@@ -1,0 +1,33 @@
+{
+  "name": "gulp-code-sine",
+  "version": "1.0.0",
+  "description": "Gulp plugin to sine your code",
+  "main": "./index.js",
+  "proxy": null,
+  "https-proxy": null,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gesslerpd/gulp-code-sine"
+  },
+  "keywords": [
+    "gulpplugin",
+    "sine",
+    "sin",
+    "code"
+  ],
+  "author": {
+    "name": "Peter Gessler",
+    "email": "gessler.pd@gmail.com",
+    "url": "http://github.com/gesslerpd"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gesslerpd/gulp-code-sine/issues"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through2": "^2.0.1"
+  }
+}
