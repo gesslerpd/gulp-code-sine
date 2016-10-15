@@ -2,6 +2,10 @@
 
 Gulp plugin to sine your code
 
+See the [output](#output) section of this document for an example of plugin functionality.
+ This plugin doesn't have a well defined purpose.
+ I guess it could be used as an easter egg for project production files.
+
 ## Contents
 
 - [Install](#install)
@@ -47,6 +51,8 @@ gulp.src('src/**/*.js')
 ```
 ## Output
 
+Before
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -79,7 +85,7 @@ gulp.src('src/**/*.js')
 </html>
 ```
 
-outputs
+After
 
 ```html
 <!DOCTYPE html>
