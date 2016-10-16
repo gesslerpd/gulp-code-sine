@@ -4,7 +4,7 @@ Gulp plugin to sine your code
 
 See the [output](#output) section of this document for an example of plugin functionality.
  This plugin doesn't have a well defined purpose.
- I guess it could be used as an easter egg for project production files.
+ I suppose it could be used as an easter egg for project production files.
 
 ## Contents
 
@@ -26,29 +26,26 @@ npm i --save-dev gulp-code-sine
 var gulp = require('gulp');
 var gulpCodeSine = require('gulp-code-sine');
 
-gulp.src('src/**/*.js')
-  .pipe(gulpCodeSine())
-  .pipe(gulp.dest('dist'));
+gulp.task('default', function () {
+    return gulp.src('src/**/*.html')
+        .pipe(gulpCodeSine())
+        .pipe(gulp.dest('dist'));
+});
 ```
 
-or with streams
+using with options
 
 ```javascript
-gulp.src('src/**/*.js', { buffer: false })
-  .pipe(gulpCodeSine())
-  .pipe(gulp.dest('dist'));
+gulp.task('default', function () {
+    return gulp.src('src/**/*.html')
+        .pipe(gulpCodeSine({
+            amplitude: 5,
+            period: 10
+        }))
+        .pipe(gulp.dest('dist'));
+});
 ```
 
-using options
-
-```javascript
-gulp.src('src/**/*.js')
-  .pipe(gulpCodeSine({
-      amplitude: 5,
-      period: 10
-  }))
-  .pipe(gulp.dest('dist'));
-```
 ## Output
 
 Before

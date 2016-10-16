@@ -76,6 +76,7 @@ function gulpCodeSine(options) {
             file.contents = new Buffer(lines.join('\n'));
         }
         if (file.isStream()) {
+            gutil.log(gutil.colors.yellow(PLUGIN_NAME, 'warning: Streams are experimental'));
             file.contents = file.contents.pipe(codeSineStream(options));
         }
 
