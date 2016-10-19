@@ -1,6 +1,6 @@
 {
   "name": "gulp-code-sine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp plugin to sine your code",
   "main": "./index.js",
   "proxy": null,
