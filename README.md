@@ -1,5 +1,7 @@
 # gulp-code-sine
 
+[![Build Status](https://travis-ci.org/gesslerpd/gulp-code-sine.svg?branch=master)](https://travis-ci.org/gesslerpd/gulp-code-sine)
+
 Gulp plugin to sine your code
 
 See the [output](#output) section of this document for an example of plugin functionality.
