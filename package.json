@@ -3,9 +3,9 @@
   "version": "1.0.1",
   "description": "Gulp plugin to sine your code",
   "main": "./index.js",
-  "proxy": null,
-  "https-proxy": null,
-  "scripts": {},
+  "scripts": {
+    "test": "cd test && gulp && diff src/sine.html dist/sine.html && diff src/sine.html dist/index.html"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/gesslerpd/gulp-code-sine"
@@ -29,5 +29,8 @@
   "dependencies": {
     "gulp-util": "^3.0.7",
     "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }
